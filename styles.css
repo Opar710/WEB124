@@ -1,0 +1,19 @@
+/* Gianni March 9, 2025 */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 20px;
+}
+
+p {
+    font-size: 18px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
