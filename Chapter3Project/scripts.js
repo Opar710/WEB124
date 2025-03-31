@@ -1,6 +1,6 @@
 // Name: Gianni | Date: March 30, 2025
 
-const fullName = "Gianni Example";
+const fullName = "Gianni Massimo Daino";
 console.log("Full Name:", fullName);
 
 const desiredSalary = 85000;
