@@ -1,0 +1,38 @@
+<!--
+  Name: Gianni
+  Date: April 6, 2025
+  Project: Scoped CSS Variables and JS (JavaScript30)
+  Changes:
+    - Used CSS variables for blur, padding, and base color
+    - Added interactive JS sliders and color picker
+    - Moved all styling and JS into separate files
+    - NEW: Live value previews next to sliders
+    - NEW: Replaced Unsplash image with updated version
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scoped CSS Variables and JS</title>
+  <link rel="icon" href="https://fav.farm/✅" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
+
+  <div class="controls">
+    <label for="spacing">Spacing: <span id="spacing-val">10px</span></label>
+    <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+    <label for="blur">Blur: <span id="blur-val">10px</span></label>
+    <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+    <label for="base">Base Color: <span id="base-val">#ffc600</span></label>
+    <input id="base" type="color" name="base" value="#ffc600">
+  </div>
+
+  <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80">
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+/*
+  Name: Gianni
+  Date: April 6, 2025
+  Project: Array Cardio Day 1 (JavaScript30)
+  Changes:
+    - Styled hidden output area and revealed it on button click
+    - Added spacing and layout for buttons
+    - Applied general body cleanup for readability
+*/
+
+body {
+    font-family: sans-serif;
+    background: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .button-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  button {
+    margin: 0.5rem;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  button:hover {
+    background: #444;
+  }
+  
+  #output {
+    display: none;
+    background: #111;
+    color: #0f0;
+    padding: 1rem;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    margin-top: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }  
