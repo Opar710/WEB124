@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GMD JS Calc</title>
+  <link rel="stylesheet" href="style/pico.min.css"/>
+  <link rel="stylesheet" href="style/style.css"/>
+</head>
+<body>
+  <h1>Sliding JavaScript Calculator</h1>
+  <h2>Made by: GMD</h2>
+  <label for="num">Use the slider</label>
+  <input type="range" id="num" min="-20" max="50" value="0" />
+  <div id="results">
+    <span id="num-display">0</span>
+    <div class="grid">
+      <div class="result-box">
+        <h2>Addition</h2>
+        <div id="addition"></div>
+      </div>
+      <div class="result-box">
+        <h2>Subtraction</h2>
+        <div id="subtraction"></div>
+      </div>
+      <div class="result-box">
+        <h2>Multiplication</h2>
+        <div id="multiplication"></div>
+      </div>
+      <div class="result-box">
+        <h2>Division</h2>
+        <div id="division"></div>
+      </div>
+    </div>
+  </div>     
+  <script src="script.js"></script>
+</body>
+</html>
